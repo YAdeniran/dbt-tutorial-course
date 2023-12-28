@@ -28,4 +28,4 @@ WHERE
     o.order_id IS NULL
     OR od.order_id IS NULL
     -- Number of items doesn't match
-    OR o.num_items_ordered != od.num_of_items_in_order
+    OR o.num_of_item != od.num_of_items_in_order
